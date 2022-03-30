@@ -1,0 +1,241 @@
+html {
+    background-color: #efdcbe;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CSS van index pagina */
+
+.index-body {
+    text-align: center;
+    max-width: 1249px;
+    margin: auto;
+    margin-top: 2%;
+    /* From https://css.glass */
+    background: rgba(34, 34, 34, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(34, 34, 34, 0.29);
+    /* From https://css.glass */
+}
+
+.title {
+    display: inline-block;
+    border-radius: 10px;
+    background: #3a3a3ab4;
+    border: 1px solid #3a3a3a86;
+    padding-inline: 10%;
+    color: #F8F0E3;
+}
+
+.container-li {
+    position: relative;
+}
+
+.container-li img {
+    background-color: #3a3a3a63;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    transition: 0.25s ease-in;
+    border: 1px solid #3a3a3a86;
+    object-fit: none;
+}
+
+.container-li img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px #3a3a3a63;
+}
+
+.cards li{
+    padding: 1%;
+    display: inline-block;
+}
+
+.text-block {
+    pointer-events: none;
+    position: absolute;
+    text-align: left;
+    bottom: 4px;
+    left: 25px;
+    background: #3a3a3a63;
+    border-radius: 8px;
+    color: #efdcbe;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #3a3a3a86;
+    transition: 0.25s ease-in;
+    padding-inline: 10px;
+}
+
+.cards img:hover + .text-block {
+    transform: scale(1.6, 1.425);
+    background: rgb(239, 220, 190, 0.5);
+    color: black;
+    bottom: 3px;
+}
+
+/* CSS van studenten pagina's */
+
+.student-body {
+    padding: 0;
+    margin: 0;
+}
+
+.student-body a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: sticky;
+    background-color: #3a3a3a;
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid #3a3a3a86;
+    padding: auto;
+    box-shadow: 0 8px 20px -7px black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color: #3a3a3a86;
+    color: #efdcbe;
+    border: 2px solid #efdcbe;
+    border: solid 2px ;
+    border-radius: 4px;
+    box-shadow: 2px 3px 0px 1px black;
+    transition: 0.4s ease-in;
+    padding: 5px;
+}
+
+.navbar .homebutton a {
+    float:left;
+    width: 100px;
+}
+
+.navbar .homebutton a:hover {
+    background-color: #efdcbe;
+    border: 2px solid #3a3a3a;
+    color: #3a3a3a;
+}
+
+.navbar .buttons a {
+    float: right;
+    margin-left: 7px;
+    width: 175px;
+}
+
+.navbar .buttons a:hover {
+    background-color: #efdcbe;
+    border: 2px solid #3a3a3a;
+    color: #3a3a3a;
+}
+
+.wrapper {
+    margin: 20px;
+    /* From https://css.glass */
+    background: rgba(34, 34, 34, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(34, 34, 34, 0.29);
+    /* From https://css.glass */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax (100px, auto);
+}
+
+.wrapper img {
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid #3a3a3a86;
+    border-radius: 8px;
+}
+
+.wrapper img {
+    height: 706px;
+    width: 452px;
+    object-fit: none;
+    border-radius: 8px;
+}
+
+.text-blocks {
+    position: absolute;
+    padding-inline: 10px;
+    top: 567px;
+    width: 432px;
+    color: #F8F0E3;
+    background: #3a3a3ab4;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #3a3a3a86;
+}
+
+.text-block-left {
+    float: left;
+    border-right: 2px solid #3a3a3a86;
+    padding-right: 15px;
+}
+
+.text-block-right {
+    float: left;
+    margin-left: 10px;
+}
+
+.list {
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-right: 20px;
+}
+
+.list ul {
+    list-style-type: none;
+    margin-left: -25px;
+    margin-bottom: -30px;
+}
+
+.list li {
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 10px;
+    object-fit: none;
+    height: 206px;
+    transition: 0.25s ease-in;
+}
+
+.list li:hover {
+    transform: scale(1.02);
+}
+
+.text-block-list {
+    pointer-events: none;
+    position: absolute;
+    color: #efdcbe;
+    text-align: center;
+    background-color: #3a3a3a63;
+    border-radius: 10px;
+    border: 1px solid #3a3a3a86;
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 55px;
+    margin-left: 50px;
+    transition: 0.25s ease-in;
+}
+
+.list li:hover .text-block-list {
+    transform: scale(1.10);
+    background: rgb(239, 220, 190, 0.5);
+    color: black;
+}
+
+.list .list-button img {
+    background-color: #3a3a3a63;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS van tekst documenten */
