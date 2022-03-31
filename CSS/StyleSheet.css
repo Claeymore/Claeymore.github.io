@@ -173,6 +173,29 @@ html {
     border: 1px solid #3a3a3a86;
 }
 
+/* Compatibility .text-blocks*/
+/* Chrome + Safari compatibility */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .text-blocks {
+        top: 568px;
+    }
+}
+
+/* Microsoft Edge compatibility */
+@supports (-ms-ime-align:auto) {
+    .text-blocks {
+        top: 568px;
+    }
+}
+
+/* Mozilla compatibility */
+@-moz-document url-prefix() {
+    .text-blocks {
+        top: 664px;
+    }
+}
+
+/* */
 .text-block-left {
     float: left;
     border-right: 2px solid #3a3a3a86;
