@@ -229,7 +229,7 @@ html {
 }
 
 .list li:hover {
-    transform: scale(1.02);
+    transform: scale(1.014);
 }
 
 .text-block-list {
@@ -249,7 +249,7 @@ html {
 }
 
 .list li:hover .text-block-list {
-    transform: scale(1.10);
+    transform: scale(1.05);
     background: rgb(239, 220, 190, 0.5);
     color: black;
 }
