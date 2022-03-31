@@ -156,7 +156,7 @@ html {
 
 .wrapper img {
     height: 706px;
-    width: 452px;
+    width: 500px;
     object-fit: none;
     border-radius: 8px;
 }
@@ -165,7 +165,7 @@ html {
     position: absolute;
     padding-inline: 10px;
     top: 664px;
-    width: 432px;
+    width: 480px;
     color: #F8F0E3;
     background: #3a3a3ab4;
     border-radius: 8px;
