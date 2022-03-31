@@ -47,7 +47,7 @@ html {
     box-shadow: 0 5px 15px #3a3a3a63;
 }
 
-.cards li{
+.cards li {
     padding: 1%;
     display: inline-block;
 }
@@ -67,7 +67,7 @@ html {
     padding-inline: 10px;
 }
 
-.cards img:hover + .text-block {
+.cards img:hover+.text-block {
     transform: scale(1.6, 1.425);
     background: rgb(239, 220, 190, 0.5);
     color: black;
@@ -102,7 +102,7 @@ html {
     background-color: #3a3a3a86;
     color: #efdcbe;
     border: 2px solid #efdcbe;
-    border: solid 2px ;
+    border: solid 2px;
     border-radius: 4px;
     box-shadow: 2px 3px 0px 1px black;
     transition: 0.4s ease-in;
@@ -110,7 +110,7 @@ html {
 }
 
 .navbar .homebutton a {
-    float:left;
+    float: left;
     width: 100px;
 }
 
@@ -142,7 +142,7 @@ html {
     border: 1px solid rgba(34, 34, 34, 0.29);
     /* From https://css.glass */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 0px;
     grid-auto-rows: minmax (100px, auto);
 }
@@ -185,7 +185,7 @@ html {
 }
 
 .list {
-    grid-column: 2/4;
+    grid-column: 2/7;
     grid-row: 1;
     margin-right: 20px;
 }
