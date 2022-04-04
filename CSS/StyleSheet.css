@@ -19,6 +19,26 @@ html {
     /* From https://css.glass */
 }
 
+.index-body .a4 {
+    border-radius: 10px;
+    background: #3a3a3ab4;
+    border: 1px solid #3a3a3a86;
+    color: #F8F0E3;
+    text-align: left;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+    border: 2cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,5)
+    text-align: left;
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
 .title {
     display: inline-block;
     border-radius: 10px;
